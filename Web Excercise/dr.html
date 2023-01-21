@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<!-- <style type="text/css"> h1{ color: yellow } </style> -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1>Register</h1>
+<form>
+<div>
+	<label for="fr">First Name:</label>
+    <input type="text" name="first name" id="fr" placeholder="John"  required>
+    <label for="ln">Last Name:</label>
+    <input type="text" name="last name" id="ln" placeholder="Smith" required>
+</div>
+<div>
+	<label for="M">Male</label>
+    <input type="radio" name="gender" id="M"  value="Male" required>
+    <label for="F">Female</label>
+    <input type="radio" name="gender" id="F" value="Female" required>
+    <label for="O">Other</label>
+    <input type="radio" name="gender" id="O" value="Other" required>
+</div>
+<div>
+	<label for="Eid">Email:</label>
+    <input type="Email" name="Email" id="Eid" placeholder="Your Email" required>
+    <label id="kim" for="p">Last Name:</label>
+    <input type="password" name="password" id="p" placeholder="Your Password" minlength="8" required>
+</div>
+<div>
+	<label id="s">Birthday:</label>
+	<select name="day">
+		<option value="day">Day</option>
+	</select>
+    <select name="month">
+    <option value="month">Month</option>
+    </select>
+    <select name="year">
+    	<option value="year">Year</option>
+    </select> </div>
+    <div>
+    <label for="tick"> I agree to the terms and conditions </label>
+    <input type="checkbox" id="tick"name="checkbox">
+    </div>
+    <input type="submit" name="submit">
+</form>
+    
+</body>
+</html>

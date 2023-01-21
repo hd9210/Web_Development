@@ -1,0 +1,26 @@
+body{ border: gray 15px solid; 
+      margin:10px 300px 10px 300px;
+      font-family: Bryndan Write Regular;}
+
+p{ margin-left: 20px;
+margin-right: 20px; }
+
+h1{ margin-left: 20px;
+     }
+
+p:nth-of-type(1){ color:#2244ff;
+                  font-size: 1.4em; }
+p:nth-of-type(2){ border-left: #f1f1f1 3px solid; 
+                  padding-left: 3px;}
+
+p:nth-of-type(4){ border-bottom: gray 3px solid; 
+padding-bottom: 5px;}
+
+
+p:nth-of-type(5){ color:#2244ff;
+                  font-size: 1.4em; }
+p:nth-of-type(6){ border-left: #f1f1f1 3px solid; 
+                  padding-left: 3px;}
+
+p:nth-of-type(8){ border-bottom: gray 3px solid; 
+padding-bottom: 5px;}
