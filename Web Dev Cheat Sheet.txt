@@ -1,0 +1,394 @@
+ Html --> Hyper text marku language
+
+creating places and text.
+
+Css --> Cascade Style Sheet.
+
+providing style to HTML.
+
+Javascript -->
+
+provinding backend dynamic logics to website or HTML.
+
+## Basic Body 
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> title_here </title>
+</head>
+
+<body>
+<img src="path">
+</body>
+</html>
+
+HTML Tag ==> <tag>  some content   </tag>
+
+1) Headers ==> <h1 - h6> some line </h1-h6>
+
+2) Bold,italic amd underline ==> <b , i , u> some content </b,/u/i>
+
+3) Paragraph ==> <p> some lines </p>
+
+4) Empty element ==> <img src="path" alt="if image not found text will be as alternative">
+
+5) Attribute in elements ==> <tag-name attr1="value1" attr2="value" > some content </tag-name>.
+
+6) Unsorted List ==> <ul> List _name 
+                          <li> content </li>
+                          <li> content </li> </ul>
+
+7) Sorted List ==> <ol> List _name 
+                          <li> content </li> 
+                          <li> content </li> </ol>
+
+8) Creating Bullet lines ==> <li> content </li>
+
+9) Anchor tag for linking document or page. <a href="path/docfile || link "> Anchor_name </a>
+
+10) Adding style sheet to your HTML in <head> using link. ==> <link href="styles/style.css" rel="stylesheet">
+
+11) Creating a button. ==> <button> Button-name </button>
+
+12) Commenting ==> <!-- comment here -->  ot ctrl + /
+
+13) Address Tag ==> <address> address </address>
+
+## Excercise One
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8" >	
+<title>Things I've Learned </title>
+<link href="styles/style.css" rel="stylesheet">
+
+</head>
+
+
+
+<body>
+<strong> <h1> Thing's I've Learned </h1> </strong>
+
+<strong> <h2> Internet Basics </h2> </strong>
+<ol> 
+     <li> HTTP Requests </li>
+     <li> Ip Addresses </li>
+     <li> Servers </li> </ol>
+
+<strong> <h2> HTML </h2> </strong>
+<ul> 
+     <li> stands for <strong> Hypertext Markup Language </strong> </li>
+     <li> Lots of tags
+         <ul>
+     	<li> Boilerplate 
+     	<ol>
+     	<li> DocType </li>
+     	<li>HTML</li>
+     	<li>Head</li>
+     	<ol> <li>Title </li></ol>
+     	<li>Body</li>
+     	</ol>
+        </li>
+
+        <li>Headings</li>
+     <li>Paragraphs</li>
+     <li><em>em</em></li>
+     <li><strong>strong</strong></li>
+     	 </ul>
+     
+     
+     
+</body>
+
+</html>
+
+14) div attribute ==> it is container or box that groups things in boundary such as icons or text together so they can be edited together in CSS. and is a block level element.
+
+<div>  <tag1>   </tag1>  <tag2> </tag2>  </div>
+
+15) span attribute ==> it is inline container or box that groups things together so they can be edited together in CSS.
+
+<span>  <tag1>   </tag1>  <tag2> </tag2>  </span>  ==> does not need extra line to separate.
+
+## Excercise 2
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Bot </title>
+</head>
+<body>
+<h1> Rusty Steele</h1>
+<p>Hi, I'm a Bot</p>
+<img src="bot.jpg" >
+<h3>Some of my favourite places :</h3>
+<ul>
+	<li> The Traning Room</li>
+	<li> The Walk</li>
+	<li> The Lab</li>
+</ul>
+
+<p>Make sure follow me on <a href ="https://www.instagram.com/?hl=en"> Instagram </a> </p>
+</body>
+</html>
+
+16) creating table ==>
+
+<table border="1">
+<thead>
+<tr>
+<th> Heading-col1 </th>
+<th> Heading-col2 </th>
+<th> Heading-col3 </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> col1 </td>
+<td> col2 </td>
+<td> col3 </td>
+</tr>
+<tr>
+<td> col1 </td>
+<td> col2 </td>
+<td> col3 </td>
+</tr> </tbody>
+<table>
+
+## Excercise 3 ==>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Bot </title>
+</head>
+<body>
+<h1> Rusty Steele</h1>
+<p>Hi, I'm a Bot</p>
+<img src="bot.jpg" >
+<h3>Some of my favourite places :</h3>
+<ul>
+	<li> The Traning Room</li>
+	<li> The Walk</li>
+	<li> The Lab</li>
+</ul>
+<h1> First Gen Pokemon Chart</h1>
+<table border="1">
+	<thead>
+		<tr>
+			<th>Image</th>
+			<th>Name</th>
+			<th>Type</th>
+			<th>Evolves Into</th>
+		</tr>
+		<tr>
+			<td><img src="http://img4.wikia.nocookie.net/__cb20140328190757/pokemon/images/thumb/2/21/001Bulbasaur.png/200px-001Bulbasaur.png"> </td>
+			<td>Bulbasaur</td>
+			<td>Grass/Poison</td>
+			<td><a href="http://pokemon.wikia.com/wiki/Ivysaur">Ivysaur</a></td>
+		</tr>
+		<tr>
+			<td><img src="http://img4.wikia.nocookie.net/__cb20140724195345/pokemon/images/thumb/7/73/004Charmander.png/200px-004Charmander.png"> </td>
+			<td>Charmander</td>
+			<td>Fire</td>
+			<td><a href="http://pokemon.wikia.com/wiki/Charmeleon">Charmeleon</a></td>
+		</tr>
+		<tr>
+			<td><img src="http://img1.wikia.nocookie.net/__cb20140328191525/pokemon/images/thumb/3/39/007Squirtle.png/200px-007Squirtle.png"> </td>
+			<td>Squirtle</td>
+			<td>Water</td>
+			<td><a href="http://pokemon.wikia.com/wiki/Wartortle">Wartortle</a></td>
+		</tr>
+	</thead>
+</table>
+<p>Make sure follow me on <a href ="https://www.instagram.com/?hl=en"> Instagram </a> </p>
+</body>
+</html>
+
+
+17) input tag ==> <input type="date" || "checkbox" || "file" || "text" || "color" || "radio" placeholder="password || username" minlength="8"> 
+
+18) Forms ==> to get input from user as comment email or password. <form action="/www.google.com" method="get || post">  </form>
+
+19) Labels ==> used to label textholders. <label> labelname <input type="text"> </label>.
+
+<label for="idname"> label-name </label>
+<input id="idname" type="text">
+
+20) Validations ==> check format of data entry or data enterted or not.
+
+<input type="Email" required>
+
+21) Radio button selection ==>
+<form>
+<label for="choice1"> label1 </label>
+<input name="choice" type="radio" id="choice1" input="on submit">
+<label for="choice2"> label2 </label>
+<input name="choice" type="radio" id="choice2" value="on submit">
+<button> Submit </button>
+</form>
+
+22) select and option tag ==>
+<form>
+<select name="color"> 
+<option value="It is red"> Red </option>
+<option value="It is blue"> Blue </option>
+<option value="It is green"> Gren </option>
+<button> Go </button>
+</form>
+</select>
+
+23) Textarea tag ===> for taking larger input like a feedback.
+
+<textarea name="" rows="10" cols="50" > </textarea>
+
+## Excercise ==>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+</head>
+<body>
+<h1>Register</h1>
+<form>
+<div>
+	<label for="fr">First Name:</label>
+    <input type="text" name="first name" id="fr" placeholder="John"  required>
+    <label for="ln">Last Name:</label>
+    <input type="text" name="last name" id="ln" placeholder="Smith" required>
+</div>
+<div>
+	<label for="M">Male</label>
+    <input type="radio" name="gender" id="M"  value="Male" required>
+    <label for="F">Female</label>
+    <input type="radio" name="gender" id="F" value="Female" required>
+    <label for="O">Other</label>
+    <input type="radio" name="gender" id="O" value="Other" required>
+</div>
+<div>
+	<label for="Eid">Email:</label>
+    <input type="Email" name="Email" id="Eid" placeholder="Your Email" required>
+    <label for="p">Last Name:</label>
+    <input type="password" name="password" id="p" placeholder="Your Password" minlength="8" required>
+</div>
+<div>
+	<label id="s">Birthday:</label>
+	<select name="day">
+		<option value="day">Day</option>
+	</select>
+    <select name="month">
+    <option value="month">Month</option>
+    </select>
+    <select name="year">
+    	<option value="year">Year</option>
+    </select> </div>
+    <div>
+    <label for="tick"> I agree to the terms and conditions </label>
+    <input type="checkbox" id="tick"name="checkbox">
+    </div>
+    <input type="submit" name="submit">
+</form>
+    
+</body>
+</html>
+
+24) Password limitation==> <input type="password" pattern=".{5,10}" required title="Please enter 5 to 10 characters.">
+
+## Basic CSS
+
+
+1) <tag style="color:red;"> content </tag>
+
+2) <style type="text/css" > tag { color:red; } </style>
+
+3) <link rel="stylesheet" type="text/css" href="style.css">
+
+in style.css ==> tag{ color: red;
+                      font-size: 56px; }
+
+4) Colors in Css ==>
+
+# RR GG BB ==> example ==>#FF0000 is red.
+
+# color: rgb(0-255,0-255,0-255 ,0-1) last option for alpha transparency.
+
+5) Backgrounds and borders ==>
+
+# body { background: rgb(11,34,255,0.5); }
+
+# body { background: url(path);
+         background-repeat: no-repeat;
+         background-size: cover; }
+
+# A border meets three requirements ==> border-color: red;
+                                        border-width: 5px;
+                                        border-style: dash;
+
+or  border : 5px solid purple;
+
+6) Types of selectors ==>
+
+#) element selector ==> tag { property : value;}
+
+#) Id Selector => <tag id="idname"> content </tag>
+
+in css==> #idname{ property: value;}
+
+#) class Selector => <tag1 class="classname"> content </tag1>
+                     <tag2 class="classname"> content </tag1>
+in css==> 
+
+.classname{ property: value;}
+
+
+#) Star selector ==> selects every thing. *{ property:value;}
+
+#) Descendant Selector ==> select y under x . x y {property:value;}
+
+#) Adjacent Selector ==> select y after just x. x+y { property:value;  }
+
+#) Attribute Selector ==> tag[attribute="value"] { property: value; }
+
+#) nth-of-type ==> tag:nth-of-type(3) { property:value;}
+
+#) x:hover{property:value;}
+
+#) x:visited{ property:value;}
+
+#) x:link{property:value}
+
+7) Inheritence and specificity ==> tag ==> id==> class ==> inline style
+
+8) Fonts ==>
+
+#) font-family: arial;
+
+#) font-size: 40px || 2.0em;
+
+#) font-style:;
+
+#) font-weight: bold,(100-800);
+
+#) line-hight : 1.5 ;
+
+#) text-align: left,center,right ;
+
+#) text-decoration:underline;
+
+9) Four Components of Box Model ==>
+
+#) Border Edge ==> border : red 2px solid;
+
+#) Margin Edge ==> margin:top right bottom left || auto;
+
+#) Padding Edge ==> padding || padding-left : 10px;
+
+#) Width  ==> width: 200px || 50%;
+
+#) Hight ==>  Hight: 70px || 20%;

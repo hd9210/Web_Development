@@ -1,0 +1,230 @@
+
+*{ margin: 0;
+   padding: 0px;
+  font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;}
+
+
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  /* background-color: black; */
+  background-image: url('../img/bg/signup.jpg') ;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  z-index: -1;
+  position: fixed;
+}
+.logo {  display: flex;
+  width: 20%;
+  justify-content: center;
+text-align: center;}
+
+.logo img{ width:  70%;
+          height: 50%;
+          border: 2px solid grey;
+          border-radius: 50%;
+              }
+
+
+.navbar{ display: flex;
+        align-items: center;
+        justify-content: center;
+        position:sticky;
+        top: 0;
+        background-color:rgba(221, 215, 215, 0.767);
+       }
+
+.nav-list{     
+   
+  width:50%;
+  
+  display: flex;
+  align-items: center;
+
+}
+
+
+.nav-list li{  list-style: none;
+               
+             padding: 26px 30px;
+}
+
+.nav-list li a:hover{  text-decoration: none;
+  color: burlywood; 
+  cursor: pointer;}
+
+
+.nav-list li a {  text-decoration: none;
+color: #040E27;
+font-weight: bold;
+
+
+}
+
+.rightnav { 
+           width: 50%;
+          text-align: right;
+          justify-items: center;
+         }
+
+#search{ padding:5px;
+         border:2px solid grey;
+         border-radius: 9px;
+         font-size: 17px;
+         outline: none;
+         background:none;
+         
+         }
+
+.rightnav i{ background:none;
+           margin-right: 20px;
+           }
+
+.rightnav i:hover{ background:none;
+                 opacity: 0.5;
+           }
+ 
+.menu {  
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+
+}
+.menu h1{ color:white;
+  margin-top: 60px;
+   
+}
+
+.form{ display: flex;
+       flex-direction: column;
+       /* justify-content: center; */
+       /* align-items: center; */
+       z-index: 2;
+       position: absolute;
+        top:30%; 
+
+    }
+
+    .id{ display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0px 0px;
+      padding: 0px 0px;
+      /* width:81%; */
+    
+    }
+ 
+      .name{ display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 0px;
+        padding: 0px 0px;
+        
+      
+      
+      }
+
+  .ins{ background: none;
+        padding: 10px 10px;
+        margin:5px 9px;
+        font-size: 17px;
+        outline:none;
+        border:none;
+        border-bottom: 2px solid violet;
+        color: white;
+      
+        
+  
+  
+  }
+ 
+   
+ 
+      
+      #otp{  width:20%;}
+
+      #validation{  margin:10px 11px;
+                   padding: 8px 16px;
+                    border:2px solid violet;
+                    outline:violet;
+                    background: none;
+                    color: white;
+                    border-radius: 8px;
+                   }
+
+   #validation:hover{
+                      background: rgb(61, 37, 61);
+                      color:white;
+
+   }
+   .ps{  display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    color:white; 
+}
+ .chk{ 
+  
+  margin:3px 3px;
+  color:white; 
+  }
+  .schk{ 
+         display: flex;
+         justify-content: right;
+         align-items: center;
+         margin:10px 58px;
+    
+    }
+
+
+    .btn{  margin:10px 11px;
+      padding: 8px 16px;
+       border:2px solid violet;
+       outline:violet;
+       background: none;
+       color: white;
+       border-radius: 8px; 
+       width:20%;
+       margin:auto;
+      }
+
+       .btn:hover{  background: rgb(61, 37, 61);
+        color:white; }
+
+       #signin{ border-radius: 5px;
+        cursor:pointer;
+         background-color: #1A73E8;
+        padding: 4px 15px;
+        
+        outline: none;
+        font-size: 17px;
+        text-decoration: none;
+        margin:20px 62px;
+        width:20%;
+       border:none}
+
+       #signin a{ text-decoration: none;
+        color:white;}
+
+        .boxing{ display:none;
+                border:2px solid white;
+                z-index: 2;
+                position: relative;}
+
+   #signin:focus{ 
+     
+        .boxing{
+            display:flex;
+             flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border:2px solid white;
+            z-index: 2;
+            position: relative;}   }

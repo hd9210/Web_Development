@@ -1,0 +1,677 @@
+How web Work
+
+steps
+
+1) HTML --> front look
+2) Css --> Style
+3) Javascript --> Backend code (function)
+
+
+
+
+
+1) <!Doctype HTML> --> Telling its a HTML document
+
+2) <tag opening | attribute of tag > body of tag </tag close>    
+
+  eg <Html lang= "en"> 
+      <Head> meta-data/css link /title </Head>
+      <Body> main area of web</Body>
+     </Html> 
+
+3) comment tag ==> <!-- cmnt --> or ctrl+/
+
+4) Meta data used for SEO (Search Engine Optimization).
+         
+             i)   <Meta charset="UTF-8">   ==> utf-8 char schema used.
+             ii)  <Meta http-equiv="X-UA-Compatible" content="IE=edge">
+             iii) <Meta name="viewport" content="width=device-width, initial-scale=1.0">
+             iv)  <Meta name="description" content="dalal bande ka bussiness" >
+             v)   <Meta name="robots" content="INDEX/NOINDEX,FOLLOW/NOFOLLOW">
+
+5) Style sheet Linking
+       
+             <Link rel="stylesheet" href="dalal.css">
+
+6) Javascript Linking
+       
+             <Script src="dalal.js">  </script>
+
+7) Heading Tags-->
+                   1) <h1> note </h1>   largest
+                   2) <h2> note </h2>
+                   3) <h3> note </h3>
+                   4) <h4> note </h4>
+                   5) <h5> note </h5>
+                   6) <h6> note </h6>   smallest
+
+8) Paragraph --> <p> lines </p>
+
+9) Emmet ==> faster way to code HTML.
+
+      eg --> ! --> To create basic HTML web in vs code or creating basic boiler plate.
+
+             <p> lorem50 </p> --> create 50 words random para.
+             
+             p*4              --> Gives 4 blank para tags.
+
+10) Bold tag ==> <strong> line </strong> or <b> </b>
+
+11) Emphasis/italic tag ==> <em> </em> or <i> </i> can be changed in style through css.
+
+12) Self closing new line tag ==> <br>
+
+13) Self closing new dash line tag ==> <hr>
+
+14) Ctrl+enter = jump to new line in vscode
+
+15) Creating hyperlinks using anchor tags -->
+     
+              <a href="url"> Link_Des </a>
+
+16) Opening URL in new tab ==>
+ 
+            <a href="url" target="_blank" > link-desc </a>
+
+17) alt + click ==> multiple select for editing.
+
+18) Opening Internal link of URL ==>
+
+           <a href="/web.html" target="_blank" > my_web </a>
+
+19) Image working ==> 
+
+          <img src="path/url" alt="error/message">
+          <img src="https://source.unsplash.com/1600*800/?nature,water" alt="net image">
+          <img src="https://source.unsplash.com/random" alt="net image">
+
+20) Setting Width and height of image ==>
+ 
+         <img src="path/url" alt=""  width="" height="">   but we use css for this.
+
+21) Creating un-ordered and ordered list ==>
+
+              <ul type="disc/square/circle">  
+              <li> l1 </li>             Creating Un-ordered List
+              <li> l2 </li>
+              </ul>
+
+              <ol type="A/a/1/i">  
+              <li> l1 </li>             Creating Ordered List
+              <li> l2 </li>
+              </ol>      
+
+22) List or list elements can be nested.
+                     <ul> 
+                     <li> </li>
+                     <li> <ul> <li> </li> </ul> </li>   
+                     </ul>   
+
+                     <ul> 
+                     <li> </li>
+                     <ul> <li> </li> </ul> </li>   
+                     </ul>     
+
+23) Creating table -->
+
+        <table> 
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>HD</td>
+                <td>22</td> 
+            </tr>
+            <tr>  
+                <td>GD</td>
+                <td>21</td> 
+            </tr>
+            <tr>
+                <td>KD</td>
+                <td>19</td>  
+            </tr>
+        </tbody>
+    </table>
+
+24) Forms of HTML --> <form action="backend.php"> <div> <input type="number/password/email/text/date/radio/button/submit/checkbox" name/value="xyz" id="xyz1"> </div> </form>
+
+25) Text Area generation--> <textarea name="mytext" cols="90" rows="10"></textarea>
+
+26) Labeling => <label for="id1"> <input type="text" name="myname" id="id1"> </label>
+
+27) Selecting Options ==>
+
+    <label for="id2"> <select name="myitem" id="id2"> <option name="xyz"> XYZ </option> </select> </label>
+
+
+28) Block elements ==> those tags who aquire full width of device for the content. eg --> <p> paragraph</p> , <div> </div>
+
+29) Inline elements ==> those tags who doesnt aquire full width of device for the content. eg --> <span> </span> , <strong> </strong>, <em> </em>,<a> </a> 
+
+30) ID for a tag is unique but class can be distributed over different tags. eg-->
+                    
+                    <div id="myid" class="class1 class2 class3"></div>
+                    <span id="sid" class=" class1 class2> </span>
+
+31) span.Classname ==> <span class="classname" > </span>
+
+32) span#sid  ==> <span id="sid"></span>
+
+33) . is for class and # is for Id in emmet or css also.
+
+34) .classname creates by default div tag. --> <div class="classname"></div>
+
+35) .class1.class2.class3.class4*5 ==> creates 5 div tag with class1,2,3,4
+
+36) Semantic Tags --> Those tags whose placing order is fixed in Markup. ex  Header,nav , article, footer
+
+37) Non semantic tags --> Those tags whose placing order is random. eg div , p , span etc
+
+38) Css --> stands for cascade style sheet. Used to provide attribute graphic property to our markup.
+ 
+39) Linking style sheet ==> <Head> <link rel="stylesheet" href="dl.css"> </Head>
+
+40) Css syntax ==>
+
+             tag, .class, #id { property: value ;}  eg #myid { background-color: red;}
+
+41) Types of selector ==>
+
+                1) Identity selector ==> #id {property : value;}
+                2) Class selector ==> .class {property : value;}
+                3) Element selector ==> p {property : value;}
+                4) Group Selector ==> #id,.class,p {property : value;}
+
+42) Types of css linking ==>
+
+        1) Inline ==> defining css style of each elements in its own body. eg <p style="font-size=23px, color=red"> </p>
+        
+        2) Internal Css ==> Defining all css styling in <style> tag in <head> tag.  eg <head> <style> p{color:red;} </style> </head>
+   
+        3) External Css ==> Defining all css styling in another .css file and linking the file in the <head> tag.
+
+43) We can use google chrome developer tools for inspecting any website code on your device only.
+
+44) Web safe fonts ==> pre installed with os.
+
+45) Web fonts ==> fonts grabbed through network.
+
+46) Font stack ==> adding 2 or more fonts so that we can get one of them to preview. eg font-family:'font1',font2';
+
+47) Import font from google-font web ==>
+
+     <link href="font link" rel="stylesheet"> in <head>
+     <style> p{font-family:font_name;} </style>
+
+48) pixel = 1/96 of inch.
+
+49) Spacing in between fonts is known as line-height. eg --> line-height = 1.3em ;
+
+50) em ==> size of parental font
+
+51) font-weight = "bold"
+
+52) font-style = "italic"
+
+53) Color uses -->
+
+    1) Color by value ==> color:red;
+
+    2) Color by rgb ==> color: rgb(0-255,0-255,0-255)
+
+    3) color by hex ==> color : #ffffff ( first 2 for R,next 2 for G,last two for B)
+
+54) Working with background ==>
+      
+       1) Image as Background ==> background-image : url('path/link') ;
+  
+       2) background with color and border ==> #id { height = 100px;
+                                                     width = 100px;
+                                                     background-color:rgb(12,45,57) ;
+                                                     background-border: 4px solid green ;
+                                                     border-radius: 11px; }
+
+
+55) Reducing code ==>
+
+          border-width : 4px;
+          border-color : green;
+          border-style : solid;
+
+         can be written as ==> border : 4px solid green;
+
+56) Giving perticular side border ==> 
+
+                              border-top: 4px solid yellow;
+
+57) Giving Radius to perticular side of border ==> 
+        
+                              border top-right-radius: 11px;
+
+58) Having border with different colors -->
+                                            border-top-color:blueviolet;
+                                            border-left-color:red;
+                                            border-right-color:green;
+                                            border-bottom-color:yellow;
+
+59) Background repeating ==>
+                               background-repeat : no-repeat/repeat x/repeat y;
+
+60) Background positioning ==>
+
+                               background-position : center center / top center / center top / center left / center right / right center;
+
+61) Box Model in Css ==>  elements is encapsulated by padding and padding by border and border by margin.
+
+62) Increasing padding or marginal width will also change box width in ratio. To prevent we use Universal selector box-sizing as border-box.
+
+             eg  *{ box-sizing : border-box ;
+                    padding:0px;
+                    margin: 0px; }   We can overwrite padding or margin later. and border-box prevent padding to extend width.
+
+63) Padding types -->
+                      1) padding in Y(top-bottom) X(right left) ==> padding 10px 20px;
+                      2) padding in TRBL  ==> padding 10px 20px 10px 20px;
+                      3) padding in all 4 borders ==> padding : 10px;
+                      4) padding in one dirn ==> padding-left : 20px;    // Same rule applied for Margin.
+
+64) Text alignment ==> 
+                       text-align : center,right, left,justify
+
+
+65) Centering any box ==> margin : 90/0px auto;  auto used in x-axis.
+
+66) Floating elements  ==> .class,#id{ float : left,right;
+                                       width: 12%; }
+ 
+67) Removing collapsing of floating elements ==> #id{ clear : left/right/both}   we use flexbox in css for better floating properties.
+
+68)  Psuedo selectors ==> used to provide property to a perticular element after any small action like hovering mouse, clicking /visiting link 
+
+      Example --> 1) a/.class:hover{ color:black;
+                                     background-color:black;}
+               
+                    a{ text-decoration:none;} --> removing all stying of a perticular element.
+                   
+
+ 
+                   2) .btn:visited { color:purple;} //action after clicking and visiting to a link.
+       
+                   3) .btn:active{ color:blue;} //action on click 
+
+69) Creating a Navigation menu -->
+
+                                 <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        .navbar {
+            background-color: black;
+            border-radius: 30px;
+            margin: 3px;
+        }
+
+        .navbar li {
+            list-style: none;   /* To remove bullets from li tag. */
+            float: left;
+            margin: 19px 18px;
+        }
+
+        .navbar ul {
+            overflow: auto;     /* Preventing floating overflow with background */
+        }
+
+
+        .navbar li a {
+            text-decoration: none;
+            padding: 3px 3px;
+            color: white;
+
+
+        }
+
+        .navbar li a:hover {
+            background-color: red;
+        }
+
+        #search {
+            float: right;
+            margin: 16px 16px;
+        }
+
+        .navbar input {
+            border-radius: 11px;
+            padding: 5px 17px;
+            border: 2px solid black;
+            width: 129px;
+        }
+    </style>
+</head>
+
+
+70) CSS Display Properties -->
+
+      1) Display inline ==> those tags which take only required space.
+      2) Display block  ==> those tags who aquires full space.
+
+  i) By setting Inline Display to display block with width % we can center the object using margin auto.    eg ==> img { display : block;
+                                                                                                       width :34px;
+                                                                                                       margin:auto; }
+
+ ii) Display Inline can width can be changed if and only if display is set to inline-block.     eg==>
+                                                                                                        display:inline-block;
+
+
+71) CSS Position properties ==>
+
+               1) Static --> remains by default.
+
+               2) Absolute --> move according to parent.  position:absolute;
+
+               3) Relative --> move relative to its original placed value.   position: relative;
+
+               4) Fixed --> the item will be fixed irrespective of the scrolling.  position:fixed;
+
+               5) Sticky --> the item remains stick to perticular place in window always.  position:sticky;
+
+
+72) Invert() function ==> inverting color of image.  filter:invert(100%) ; 
+
+73) Visibility ==> mode of vision of an item.
+                       
+                visibility: hidden/visible    hide but space remains as it is.
+
+                display:hide; hide element and its space removed.
+
+74) Z-index ==> used for display an item over another .
+                but elements must be in position other than static.
+
+                Give higher value of z-index to priorties a perticular item.
+            
+                   z-index:76;
+
+
+
+
+
+
+75) Java script ==> using js in <script> tag in head.
+
+76) display message hello world .
+
+      <script> console.log('hello world') </script>
+
+77) Variables in javascript ==>
+
+     var a = 78;
+     var b ="dalal";
+
+78) Operators in js ==>  unary and binary.  binary --> +,- etc 
+                                            unary --> ++x;
+
+
+79) concatenation of strings with operators -->   console.log('the value of num1+num2 is' + (num1+num2));
+
+80) exponent ==> console.log(num1**num2);
+
+81) strings method ==>
+
+    var string ='h""d';
+
+  1) concatenation ==> console.log(str1 + str2 + str3);
+
+  2) string template ==> `${name} is a good person having ${marks}`;
+
+  3) len = string.length;
+
+  4) Escape sequences ==> \n -->new line character.
+                          \e,\b
+                          \\n --> \n
+
+  5) string using constructor ==> var y = new string('abc');
+
+  6) string postion ==> str.indexof('word');    first occurence of a sub string.
+
+  7) last position ==> str.lastindexof('word'); last occerrence 
+
+  8) slicing --> str.slice(1,n) ==> prints 1 to n-1 string. take -ve values also.
+ 
+  9) slicing with sub str ==> str.substr(offset,length);
+
+  10) replacing sub string --> str.replace('string' , 'hd');
+
+  11) uppercase ==> str.touppercase(str);
+  
+  12) lower case ==> str.tolowercase(str);
+ 
+  13) concat ==> str.concat("string2");
+
+  14) white space trim from last and end of string==> str.trim();
+
+  15) Character extraction ==> var ch = str.charAt(2);
+
+  16) Character code extraction ==> var ch = str.charcode(2);  gives ascii code.
+
+  17) slicing ==> console.log(str[2,5]);
+
+  18) scoping ==>
+
+          let ==> have local scope.
+        
+          ex  
+                  let a='u'  global scope
+              {   let a='u' ; local scope   }
+
+ 
+ 19) const a = 'cannot be changed';
+
+ 20) if -else ==>   if(x>y)  {}
+                    else {}
+
+ 21) else if ==>
+                      if(x>y) {}
+                      else if(x==y) {} 
+                      else{}
+
+ 22) switch ==> 
+
+                 switch(x) {
+                  
+                    case 1: code;
+                            break;
+                   default: code; 
+                     break; }
+
+
+ 23) object ==> collection of different data types.
+ 
+ 24) array ==> collection of data types in 1 D. 
+
+          let arr[]={1,2,3,4,5,6};
+          let arr[]={1,'hd',45.6};
+
+          let arr = new Array( 1,2,3,4);
+
+ 25) array length ==> arr.length;
+
+ 26) array sorting ==> arr.sort();
+
+ 27) pushing an element in array.  arr.push('element');
+
+ 28) let object1 = {
+ 
+               name: 'HD',
+               salary: 40000,
+                    
+                   }
+
+       object1.name = object1['name'] = HD ( same output)
+
+       object_name['key'] = value;
+
+
+ 29) functions in js ==> 
+                          function name(parameter) {    code; }
+   
+                    let return_val = function name( p1,p2) { return p1+p2;}
+
+ 30) alert() function  ==>
+
+                  alert("this is a message");  -> modal window  ( no access with web till modal gone)  
+
+                  Alert doesn't return anything.
+
+ 31) prompt() function --> let var1 = prompt('whats your name ',""); --> "" for blank reply.
+
+
+ 32) confirm() function --> let deletepost = confirm('do you really want to delete post') ==> returns boolean value.
+
+
+ 33) for loop ==> for ( i=0; i<3; i++) { code ;}
+
+ 34) while loop ==> while (ch=='y') {  code; }
+
+ 35) do while loop ==> do { code ;} while(condition)
+
+ 36) iteration of array ==> arr.forEach(function f(element) {    console.log("elements are" + element) } );
+
+ 37) for of iteration ==> for (elements of arr) { console.log(elements);}
+
+ 38) for-in loop for object iteration.
+                              
+                      for ( key in obj ) { 
+                                           console.log(`the ${key} of employee is ${employee['key']}`);   }
+
+ 
+
+ 39) DOM navigation ==> using HTML class or id to get data in js.
+             
+                        let main = document.getElementByID('element_id');
+      
+                        let variable = document.getElementByClassName('class_name');
+
+
+ 40) getting HTML code from DOM ==> let variable = document.getElementByID('id');
+                                    console.log(variable.innerHTML);  
+
+ 41) 
+
+
+
+
+
+
+
+#####################   Backend  ####################################################
+
+1) Backend Js works in Node JS ( response of js through server not web itself).
+
+2) Node JS extracted from chrome V8 engine.
+
+3) Scalable
+
+4) Node JS also runs backend js.
+
+5) why to use node js ==> because you can code front end and backend with js only.
+
+6) To run node js ==> just type node in vs code terminal. and use .exit use exit
+
+7) Read Evaluate Process Loop (REPL) is the shell of node js.
+
+8) Node js Built In modules
+
+9) blocking and non blocking node js code.
+
+10) Serving HTML on server using node js ==>
+
+const http = require('http');
+const fs = require('fs');
+const file = fs.readFileSync('tour.html');
+const port =3000;
+const localhost = '127.0.0.1';
+
+const server = http.createServer((req,res)=>{
+      
+     res.writeHead(200,'Content-type: text/html');
+     res.end(file);
+}) ;
+
+server.listen(port,localhost,()=>{
+    console.log('running live server');
+}) ;
+
+
+
+11) Using express for backend responsive ness with postman ==>
+
+
+const express = require('express');
+const app = express();
+const port =3000;
+
+app.get('/',(req,res)=>{
+
+ res.status(200).send("this is my homapage");  });   --> sending get request with status code.
+
+        
+        app.get('/about',(req,res)=>{
+
+        res.send("this is about page");  });
+
+       
+        app.get('/service',(req,res)=>{
+
+        res.send("this is service page");  });
+ 
+
+       app.listen(port,()=>{
+
+          console.log(`my web running on this ${port}`);
+                    }) ;
+
+
+
+12) above commands ==>  node app.js
+                        nodemon app.js
+
+
+
+13) For serving static files  using express ==>  app.use('/static',express.static('static')) ;   => '/static' => url    'static' => folder name on device.
+
+                                                 and here we can use files under static folder on backend server.
+
+
+14) making web templates using pug ==> 
+
+                      app.set('view engine','pug');  ==> setting engine
+
+                      app.set('views',path.join(__dirname,'views'));  ==> setting folder location for template
+ 
+                      app.get('/demo', function (req, res) {
+                      res.status(200).render('demo', { title: 'Hey', message: 'Hello there!' }) ;    ==> making demo template using demo.pug file.
+                        }) ;
+
+                    
+
+
+15) Using Pug ==>
+
+
+
+
+
+
+
+16) MongoDB ==> No SQL db written in c++.
+                document oriented.
+                faster and integrate easily.
+                Data stored in BSON similar as json but each key value pair contains data type.                        
